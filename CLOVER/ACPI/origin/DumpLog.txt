@@ -1,0 +1,195 @@
+347:103  6:646  Found BIOS RSDP at FBE00
+347:103  0:000  Printing ACPI tables from RSDP FBE00 ...
+347:103  0:000   FBE00: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+347:103  0:000    (Xsdt: BFFB6188, Rsdt: BFFB60C4)
+347:103  0:000    BFFB6188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 276
+347:103  0:000    BFFB60C4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 156
+347:103  0:000    Tables in Xsdt: 30
+347:103  0:000    0. BFFE7000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+347:103  0:000        (Dsdt: BFFC5000, Facs: BFF06000, XDsdt: BFFC5000, XFacs: 0)
+347:103  0:000        BFFC5000: 'DSDT', '8471', Rev: 2, Len: 126181
+347:107  0:003        BFF06000: 'FACS', Ver: 2, Len: 64
+347:107  0:000    1. BFFFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+347:107  0:000    2. BFFEE000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 49715
+347:107  0:000    3. BFF14000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+347:107  0:000    4. BFFEA000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12371
+347:107  0:000    5. BFFE9000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+347:107  0:000    6. BFFE8000: 'WSMT', '8471', Rev: 1, Len: 40
+347:107  0:000    7. BFFE6000: 'HPET', '8471', Rev: 1, Len: 56
+347:107  0:000    8. BFFE5000: 'APIC', '8471', Rev: 3, Len: 300
+347:107  0:000    9. BFFE4000: 'MCFG', '8471', Rev: 1, Len: 60
+347:107  0:000    10. BFFC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+347:107  0:000    11. BFFC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+347:107  0:000    12. BFFBF000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14585
+347:107  0:000    13. BFFBE000: 'SSDT', 'GddvDumm', Rev: 2, Len: 3983
+347:107  0:000    14. BFFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+347:107  0:000    15. BFFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+347:107  0:000    16. BFFBA000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+347:107  0:000    17. BFFB9000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+347:107  0:000    18. BFFB8000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+347:107  0:000    19. BFFB7000: 'DBGP', '', Rev: 1, Len: 52
+347:107  0:000    20. BFFFD000: 'DBG2', '', Rev: 0, Len: 84
+347:107  0:000    21. BFFB5000: 'DMAR', 'EDK2', Rev: 1, Len: 240
+347:107  0:000    22. BFFB4000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+347:107  0:000    23. BFFB3000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 453
+347:107  0:000    24. BFFB2000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 3691
+347:107  0:000    25. BFFB1000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+347:107  0:000    26. BFFAD000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12465
+347:107  0:000    27. BFFAC000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+347:107  0:000    28. BFFAB000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+347:107  0:000    29. BFFFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
+347:107  0:000    Tables in Rsdt: 30
+347:107  0:000    0. BFFE7000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+347:107  0:000        (Dsdt: BFFC5000, Facs: BFF06000, XDsdt: BFFC5000, XFacs: 0)
+347:107  0:000        BFFC5000: 'DSDT', '8471', Rev: 2, Len: 126181
+347:111  0:003        BFF06000: 'FACS', Ver: 2, Len: 64
+347:111  0:000    1. BFFFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+347:111  0:000    2. BFFEE000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 49715
+347:111  0:000    3. BFF14000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+347:111  0:000    4. BFFEA000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12371
+347:111  0:000    5. BFFE9000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+347:111  0:000    6. BFFE8000: 'WSMT', '8471', Rev: 1, Len: 40
+347:111  0:000    7. BFFE6000: 'HPET', '8471', Rev: 1, Len: 56
+347:111  0:000    8. BFFE5000: 'APIC', '8471', Rev: 3, Len: 300
+347:111  0:000    9. BFFE4000: 'MCFG', '8471', Rev: 1, Len: 60
+347:111  0:000    10. BFFC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+347:111  0:000    11. BFFC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+347:111  0:000    12. BFFBF000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14585
+347:111  0:000    13. BFFBE000: 'SSDT', 'GddvDumm', Rev: 2, Len: 3983
+347:111  0:000    14. BFFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+347:111  0:000    15. BFFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+347:111  0:000    16. BFFBA000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+347:111  0:000    17. BFFB9000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+347:111  0:000    18. BFFB8000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+347:111  0:000    19. BFFB7000: 'DBGP', '', Rev: 1, Len: 52
+347:111  0:000    20. BFFFD000: 'DBG2', '', Rev: 0, Len: 84
+347:111  0:000    21. BFFB5000: 'DMAR', 'EDK2', Rev: 1, Len: 240
+347:111  0:000    22. BFFB4000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+347:111  0:000    23. BFFB3000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 453
+347:111  0:000    24. BFFB2000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 3691
+347:111  0:000    25. BFFB1000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+347:111  0:000    26. BFFAD000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12465
+347:111  0:000    27. BFFAC000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+347:111  0:000    28. BFFAB000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+347:111  0:000    29. BFFFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
+347:111  0:000  Found UEFI Acpi 2.0 RSDP at BFFFE014
+347:111  0:000  Saving ACPI tables from RSDP BFFFE014 to EFI\CLOVER\ACPI\origin ...
+347:111  0:000   BFFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+347:156  0:045    (Xsdt: BFFB6188, Rsdt: BFFB60C4)
+347:156  0:000    BFFB6188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 276 -> XSDT.aml
+347:174  0:017    BFFB60C4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 156 -> RSDT.aml
+347:213  0:038    Tables in Xsdt: 30
+347:213  0:000    0. BFFE7000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268 -> FACP.aml
+347:232  0:019        (Dsdt: BFFC5000, Facs: BFF06000, XDsdt: BFFC5000, XFacs: 0)
+347:232  0:000        BFFC5000: 'DSDT', '8471', Rev: 2, Len: 126181 -> DSDT.aml
+347:274  0:042        BFF06000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+347:292  0:017    1. BFFFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298 -> SSDT-0-ShmTable.aml
+347:311  0:018    2. BFFEE000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 49715 -> SSDT-1-PLT_RTD3.aml
+348:220  0:909    3. BFF14000: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.aml
+348:238  0:017    4. BFFEA000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12371 -> SSDT-2-SaSsdt.aml
+348:267  0:029    5. BFFE9000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85 -> MSDM.aml
+348:285  0:018    6. BFFE8000: 'WSMT', '8471', Rev: 1, Len: 40 -> WSMT.aml
+348:302  0:016    7. BFFE6000: 'HPET', '8471', Rev: 1, Len: 56 -> HPET.aml
+348:318  0:015    8. BFFE5000: 'APIC', '8471', Rev: 3, Len: 300 -> APIC.aml
+348:344  0:026    9. BFFE4000: 'MCFG', '8471', Rev: 1, Len: 60 -> MCFG.aml
+348:362  0:018    10. BFFC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444 -> SSDT-3-Sata0Ide.aml
+348:380  0:017    11. BFFC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844 -> SSDT-4-PtidDevc.aml
+348:396  0:016    12. BFFBF000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14585 -> SSDT-5-DptfTabl.aml
+348:414  0:018    13. BFFBE000: 'SSDT', 'GddvDumm', Rev: 2, Len: 3983 -> SSDT-6-GddvDumm.aml
+348:440  0:025    14. BFFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-7-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+348:457  0:017        * BFD1C198: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1419  53 53 44 54 8B 05 00 00 02 63 50 6D 52 65 66 00 Internal length = 1419 -> SSDT-x7_0-Cpu0Ist.aml
+348:477  0:019        * BFBF5018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x7_1-ApIst.aml
+348:496  0:019        * BFBF6698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x7_2-Cpu0Cst.aml
+348:514  0:018        * BFD1C818: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x7_3-ApCst.aml
+348:540  0:025        * BFD1CF18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x7_4-Cpu0Hwp.aml
+348:559  0:019        * BFBF4018: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x7_5-ApHwp.aml
+348:576  0:016        * BFBF6018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x7_6-HwpLvt.aml
+348:592  0:016  
+348:592  0:000    15. BFFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511 -> SSDT-8-CtdpB.aml
+348:610  0:018    16. BFFBA000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-9-HdaDsp.aml
+348:633  0:022    17. BFFB9000: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-10-sensrhub.aml
+348:652  0:019    18. BFFB8000: 'SSDT', 'EInkApp', Rev: 1, Len: 838 -> SSDT-11-EInkApp.aml
+348:672  0:019    19. BFFB7000: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+348:690  0:018    20. BFFFD000: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+348:707  0:016    21. BFFB5000: 'DMAR', 'EDK2', Rev: 1, Len: 240 -> DMAR.aml
+348:723  0:016    22. BFFB4000: 'NHLT', 'EDK2', Rev: 0, Len: 45 -> NHLT.aml
+348:741  0:018    23. BFFB3000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 453 -> SSDT-12-NVPOWERC.aml
+348:759  0:018    24. BFFB2000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 3691 -> SSDT-13-HPINNBWL.aml
+348:783  0:023    25. BFFB1000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50 -> SSDT-14-HPCONDEV.aml
+348:801  0:017    26. BFFAD000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12465 -> SSDT-15-NVSGPCH.aml
+348:820  0:018    27. BFFAC000: 'FPDT', 'EDK2', Rev: 1, Len: 68 -> FPDT.aml
+348:837  0:016    28. BFFAB000: 'BGRT', 'EDK2', Rev: 1, Len: 56 -> BGRT.aml
+348:853  0:016    29. BFFFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761 -> SSDT-16-PwrCtlEv.aml
+348:871  0:018    Tables in Rsdt: 30
+348:871  0:000    0. BFFE7000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+348:871  0:000        (Dsdt: BFFC5000, Facs: BFF06000, XDsdt: BFFC5000, XFacs: 0)
+348:871  0:000        BFFC5000: 'DSDT', '8471', Rev: 2, Len: 126181
+348:875  0:004        BFF06000: 'FACS', Ver: 2, Len: 64
+348:875  0:000    1. BFFFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+348:875  0:000    2. BFFEE000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 49715
+348:875  0:000    3. BFF14000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+348:875  0:000    4. BFFEA000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12371
+348:875  0:000    5. BFFE9000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+348:875  0:000    6. BFFE8000: 'WSMT', '8471', Rev: 1, Len: 40
+348:875  0:000    7. BFFE6000: 'HPET', '8471', Rev: 1, Len: 56
+348:875  0:000    8. BFFE5000: 'APIC', '8471', Rev: 3, Len: 300
+348:875  0:000    9. BFFE4000: 'MCFG', '8471', Rev: 1, Len: 60
+348:875  0:000    10. BFFC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+348:875  0:000    11. BFFC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+348:875  0:000    12. BFFBF000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14585
+348:875  0:000    13. BFFBE000: 'SSDT', 'GddvDumm', Rev: 2, Len: 3983
+348:875  0:000    14. BFFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+348:875  0:000    15. BFFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+348:875  0:000    16. BFFBA000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+348:875  0:000    17. BFFB9000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+348:875  0:000    18. BFFB8000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+348:875  0:000    19. BFFB7000: 'DBGP', '', Rev: 1, Len: 52
+348:875  0:000    20. BFFFD000: 'DBG2', '', Rev: 0, Len: 84
+348:875  0:000    21. BFFB5000: 'DMAR', 'EDK2', Rev: 1, Len: 240
+348:875  0:000    22. BFFB4000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+348:875  0:000    23. BFFB3000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 453
+348:875  0:000    24. BFFB2000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 3691
+348:875  0:000    25. BFFB1000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+348:875  0:000    26. BFFAD000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12465
+348:875  0:000    27. BFFAC000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+348:875  0:000    28. BFFAB000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+348:875  0:000    29. BFFFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
+348:875  0:000  Found UEFI Acpi 1.0 RSDP at BFFFE000
+348:875  0:000  Printing ACPI tables from RSDP BFFFE000 ...
+348:875  0:000   BFFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+348:875  0:000    (Rsdt: BFFB6000)
+348:875  0:000    BFFB6000: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 156
+348:875  0:000    Tables in Rsdt: 30
+348:875  0:000    0. BFFE7000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+348:875  0:000        (Dsdt: BFFC5000, Facs: BFF06000, XDsdt: BFFC5000, XFacs: 0)
+348:875  0:000        BFFC5000: 'DSDT', '8471', Rev: 2, Len: 126181
+348:879  0:003        BFF06000: 'FACS', Ver: 2, Len: 64
+348:879  0:000    1. BFFFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+348:879  0:000    2. BFFEE000: 'SSDT', 'PLT_RTD3', Rev: 2, Len: 49715
+348:879  0:000    3. BFF14000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+348:879  0:000    4. BFFEA000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12371
+348:879  0:000    5. BFFE9000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+348:879  0:000    6. BFFE8000: 'WSMT', '8471', Rev: 1, Len: 40
+348:879  0:000    7. BFFE6000: 'HPET', '8471', Rev: 1, Len: 56
+348:879  0:000    8. BFFE5000: 'APIC', '8471', Rev: 3, Len: 300
+348:879  0:000    9. BFFE4000: 'MCFG', '8471', Rev: 1, Len: 60
+348:879  0:000    10. BFFC4000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+348:879  0:000    11. BFFC3000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+348:879  0:000    12. BFFBF000: 'SSDT', 'DptfTabl', Rev: 2, Len: 14585
+348:879  0:000    13. BFFBE000: 'SSDT', 'GddvDumm', Rev: 2, Len: 3983
+348:879  0:000    14. BFFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+348:879  0:000    15. BFFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+348:879  0:000    16. BFFBA000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+348:879  0:000    17. BFFB9000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+348:879  0:000    18. BFFB8000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+348:879  0:000    19. BFFB7000: 'DBGP', '', Rev: 1, Len: 52
+348:879  0:000    20. BFFFD000: 'DBG2', '', Rev: 0, Len: 84
+348:879  0:000    21. BFFB5000: 'DMAR', 'EDK2', Rev: 1, Len: 240
+348:879  0:000    22. BFFB4000: 'NHLT', 'EDK2', Rev: 0, Len: 45
+348:879  0:000    23. BFFB3000: 'SSDT', 'NVPOWERC', Rev: 1, Len: 453
+348:879  0:000    24. BFFB2000: 'SSDT', 'HPINNBWL', Rev: 1, Len: 3691
+348:879  0:000    25. BFFB1000: 'SSDT', 'HPCONDEV', Rev: 1, Len: 50
+348:879  0:000    26. BFFAD000: 'SSDT', 'NVSGPCH', Rev: 1, Len: 12465
+348:879  0:000    27. BFFAC000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+348:879  0:000    28. BFFAB000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+348:879  0:000    29. BFFFB000: 'SSDT', 'PwrCtlEv', Rev: 2, Len: 761
